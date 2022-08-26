@@ -1,0 +1,204 @@
+/* MAIN SCREEN */
+
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: aquamarine;
+}
+
+
+.btn1{
+ background-color:  #46139f;
+ height: 7vh;
+    border: none;
+    width: 35vh;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.btn2{
+    background-color: #ff7f50;
+    height: 7vh;
+    border: none;
+    width: 35vh;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+
+
+
+/* MODAL--A */
+
+.a{
+    height: auto;
+    width: 100%;
+    background-color:  #46139f;
+ 
+}
+
+.aa{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    height: 50vh;
+    width: 50vh;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+
+.text1{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+    color: wheat;
+    cursor: pointer;
+}
+
+h2{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 10px;
+    padding-top: 15px;
+}
+
+.btn3{
+    border: 1px solid  #46139f;
+    background-color: white;
+    height: 7vh;
+    width: 35vh;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.d{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 20vh;
+    width: 100%;
+    background-color:  #46139f;
+}
+
+.d1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chk{
+    height: 3vh;
+    width: 3vh;
+}
+
+.chk-text{
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 6px;
+    color: white;
+}
+
+.search-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    float: end;
+    float: right;
+    height: 5vh;
+    width: 35vh;
+    outline: none;
+    font-size: 13px;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    background-color: lightblue;
+    outline: none;
+    border: none;
+}
+
+.f{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 28vh;
+    border: 1px solid blue;
+    width: 40vh;
+    margin: auto;
+}
+
+
+/* MODAL--B */
+
+.b{
+    height: auto;
+    width: 100%;
+    background-color: #ff7f50;
+}
+
+.bb{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.text2{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+    color: wheat;
+}
+
+.card2{
+    height: 50vh;
+    width: 50vh;
+    border: 1px solid orangered;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 15px; 
+}
+
+
+
+/* MODAL--C */
+
+.c{
+    height: 100vh;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.cc{
+    height: 100%;
+    width: 100%;
+}
